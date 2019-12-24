@@ -19,7 +19,7 @@ The problem is modelled as bayes net with
 
 #### Approach 1: Simple Bayes Net:
 
-![alt text](https://github.iu.edu/cs-b551-fa2019/vbmaigur-srmanj-dtalreja-a3/blob/master/images/simple_bayes_net_1.png)
+![alt text](https://github.com/smanj2/Artificial-Intelligence-Part-Of-Speech-Tagging/blob/master/images/simple_bayes_net_1.png)
 
 Training Part: Here, We have to find two argmax(P(S</sup><sub>i</sub>|W</sup><sub>i</sub>)) equals to P(W</sup><sub>i</sub>|S</sup><sub>i</sub>)*P(S</sup><sub>i</sub>)
 
@@ -92,7 +92,7 @@ Finding the posterior, given a sentence and corresponding label
 
 #### Approach 2: HMM Viterbi Algorithm:
 
-![alt text](https://github.iu.edu/cs-b551-fa2019/vbmaigur-srmanj-dtalreja-a3/blob/master/images/hmm_viterbi.png)
+![alt text](https://github.com/smanj2/Artificial-Intelligence-Part-Of-Speech-Tagging/blob/master/images/hmm_viterbi.png)
 
 Training Part: Here, We have to find two P(S</sup><sub>i</sub>|W</sup><sub>i</sub>) equals to P(W</sup><sub>i</sub>|S</sup><sub>i</sub>)*argmax(P(previous_state)*P(S</sup><sub>i+1</sub>|S</sup><sub>i</sub>))
 
@@ -143,11 +143,12 @@ Finding the posterior, given a sentence and corresponding label
 #### Simple illustration of the hmm-viterbi algorithm for POS
 ##### [ref]-http://www.phontron.com/slides/nlp-programming-en-04-hmm.pdf
 
-![alt text](https://github.iu.edu/cs-b551-fa2019/vbmaigur-srmanj-dtalreja-a3/blob/master/images/re.png)
+![alt text](https://github.com/smanj2/Artificial-Intelligence-Part-Of-Speech-Tagging/blob/master/images/re.png)
+
 
 #### Approach 3: Gibbs Sampling:
 
-![alt text](https://github.iu.edu/cs-b551-fa2019/vbmaigur-srmanj-dtalreja-a3/blob/master/images/gibbs.png)
+![alt text](https://github.com/smanj2/Artificial-Intelligence-Part-Of-Speech-Tagging/blob/master/images/gibbs.png)
 
 Training Part: Here, We have to find two P(S</sup><sub>i</sub>|W</sup><sub>i</sub>) equals to P(W</sup><sub>i</sub>|S</sup><sub>i</sub>)*argmax(P(previous_state)*P(S</sup><sub>i+1</sub>|S</sup><sub>i</sub>))
 
@@ -220,7 +221,7 @@ Finding the posterior, given a sentence and corresponding label
 
 #### Accuracy:
 
-![alt text](https://github.iu.edu/cs-b551-fa2019/vbmaigur-srmanj-dtalreja-a3/blob/master/images/Accuracy.png)
+![alt text](https://github.com/smanj2/Artificial-Intelligence-Part-Of-Speech-Tagging/blob/master/images/Accuracy.png)
 
 **References** - </br>
 
